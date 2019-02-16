@@ -1,0 +1,11 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Frontend Application written in JS",
+  "main": "app.js",
+  "author": "Amos Garner",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  }
+}
