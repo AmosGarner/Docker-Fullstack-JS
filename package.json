@@ -1,0 +1,10 @@
+{
+  "name": "docker-fullstack-js",
+  "version": "1.0.0",
+  "description": "Dockerized JS application with node frontend, node + express backend, and mongo db",
+  "author": "Amos Garner",
+  "license": "MIT",
+  "scripts": {
+    "restart": "docker-compose down && docker volume prune -f && docker image prune -f && npm install && docker-compose build && docker-compose up"
+  }
+}
